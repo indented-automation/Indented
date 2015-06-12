@@ -20,7 +20,7 @@ function Update-InternalRootHints {
     [URI]$Source = "http://www.internic.net/domain/named.root"
   )
   
-  Get-WebContent $Source -File $psscriptroot\..var\named.root
+  Get-WebContent $Source -FileName $psscriptroot\..\var\named.root
   Initialize-InternalDnsCache
 }
 

@@ -43,6 +43,7 @@ if ($Private.Count -ge 1) {
                  'Get-NetworkRange',
                  'Get-NetworkSummary',
                  'Get-Subnets',
+                 'Get-WebContent',
                  'Get-WhoIs',
                  'New-BinaryReader',
                  'New-Socket',
